@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    border: 1px solid blue;
+    background-color: #030303;
+}
+
+.main-header__banner {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    padding: 16px 0;
+}
+
+.main-header__banner img {
+    width: 64px;
+    height: 64px;
+    margin-left: 85px;
+}
+
+.main-header__banner h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
