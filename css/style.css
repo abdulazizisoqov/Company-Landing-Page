@@ -11,10 +11,15 @@
     background-color: #030303;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
 .main-header__banner {
     display: flex;
     align-items: center;
-    width: 148px;
+    width: 150px;
     padding: 16px 0;
 }
 
@@ -28,4 +33,37 @@
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
+}
+
+nav {
+    display: flex;
+}
+
+.main-navigation__items {
+    display: flex;
+    list-style: none;
+    margin-left: 335px;
+}
+
+.main-navigation__item {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 11px;
+}
+
+.main-navigation__item a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-navigation__btn {
+    margin-left: 255px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0a84ff;
+    padding: 14px 36px;
+    border-radius: 10px;
 }
