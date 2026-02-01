@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +13,13 @@
     background-color: #030303;
 }
 
+body {
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+}
+
 header {
+    position: relative;
     display: flex;
     align-items: center;
 }
@@ -31,6 +39,7 @@ header {
 
 .main-header__banner h3 {
     font-size: 20px;
+    font-family: "Barlow";
     font-weight: 700;
     color: #ffffff;
 }
@@ -54,6 +63,7 @@ nav {
 .main-navigation__item a {
     text-decoration: none;
     font-size: 16px;
+    font-family: "Barlow";
     font-weight: 400;
     color: #ffffff;
 }
@@ -61,9 +71,96 @@ nav {
 .main-navigation__btn {
     margin-left: 255px;
     font-size: 14px;
+    font-family: "Barlow";
     font-weight: 600;
     color: #ffffff;
     background-color: #0a84ff;
     padding: 14px 36px;
     border-radius: 10px;
+}
+
+main {
+    position: relative;
+    display: flex;
+}
+
+.main-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 700px;
+    z-index: 1;
+}
+
+.main-header__infos {
+    position: relative;
+    margin-top: 160px;
+    margin-left: 110px;
+    width: 650px;
+    z-index: 2;
+}
+
+.main-header__info h1 {
+    font-size: 72px;
+    font-family: "Barlow";
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.main-header__info h1 span {
+    font-size: 72px;
+    font-family: "Barlow";
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #0a84ff;
+    padding: 0 30px;
+    border-radius: 16px;
+}
+
+.main-header__info h3 {
+    margin-top: 33px;
+    width: 550px;
+    font-size: 20px;
+    font-family: "Barlow";
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-header__info button {
+    margin-top: 33px;
+    font-size: 14px;
+    font-family: "Barlow";
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #0a84ff;
+    padding: 14px 35px;
+    border-radius: 10px;
+}
+
+.clients {
+    display: flex;
+    margin-top: 33px;
+    width: 400px;
+}
+
+.clients img {
+    width: 57px;
+    height: 24px;
+}
+
+.clients h4 {
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: "Barlow";
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.main-header__info-robot img {
+    position: relative;
+    margin-top: 45px;
+    width: 570px;
+    height: 655px;
+    z-index: 2;
 }
